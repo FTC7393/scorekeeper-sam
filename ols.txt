@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Drone_Points   R-squared:                       0.047
+Model:                            OLS   Adj. R-squared:                  0.032
+Method:                 Least Squares   F-statistic:                     3.089
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):            0.00974
+Time:                        12:50:10   Log-Likelihood:                -1388.8
+No. Observations:                 322   AIC:                             2790.
+Df Residuals:                     316   BIC:                             2812.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+Intercept                           26.5607      2.697      9.849      0.000      21.255      31.867
+C(division)[T.FTCCMP1JEMI]           3.7179      2.529      1.470      0.143      -1.258       8.694
+C(division)[T.FTCCMP1OCHO]           6.0591      2.836      2.136      0.033       0.479      11.639
+C(location_name)[T.field_1_red]     -8.5366      2.848     -2.997      0.003     -14.140      -2.933
+C(location_name)[T.field_2_blue]    -7.1251      2.875     -2.478      0.014     -12.782      -1.468
+C(location_name)[T.field_2_red]     -3.4542      2.875     -1.201      0.230      -9.111       2.203
+==============================================================================
+Omnibus:                       12.765   Durbin-Watson:                   2.031
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):                9.244
+Skew:                           0.301   Prob(JB):                      0.00983
+Kurtosis:                       2.428   Cond. No.                         5.60
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
